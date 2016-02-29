@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidSingIn</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sing IN</string>
+    <string name="sign_in_error">Error Sing IN</string>
+    <string name="CONGRATULATION">Congratulation</string>
+</resources>

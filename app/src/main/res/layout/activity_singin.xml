@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="10dp"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/view_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:id="@+id/view_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/view_submit"
+            style="@style/SigninButton"
+            android:background="@color/colorAccent"
+            android:text="@string/sign_in"/>
+
+        <ProgressBar
+            android:id="@+id/view_progress"
+            style="@android:style/Widget.Holo.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/view_submit"
+            android:layout_alignLeft="@id/view_submit"
+            android:layout_alignTop="@id/view_submit"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+</LinearLayout>
